@@ -3,25 +3,108 @@
     <head>
         <meta charset="utf-8">
         <title>Rafael Gelatti | Portfolio</title>
+        <style>    
+            body {
+                background-color: rgb(240, 235, 216);
+                color: rgb(29, 45, 68);
+                font-family: sans-serif;
+                margin-left: 20px;
+                font-size: 18px;
+            }
+
+            .name-title {
+                color: rgb(62, 92, 118);
+                font-family: sans-serif;
+                text-align: center;
+                font-size: 2.5em;
+            }
+
+            .title {
+                color: rgb(62, 92, 118);
+                font-size: 1.5em;
+            }
+            .description {
+                text-align: center;
+            }
+            .main-img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100%;
+                width: 15%;
+            }
+            .link-indice {
+                padding: 0px 3px;
+                background-color: rgb(62, 92, 118);
+                color: white;
+                font-weight: 600;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .trybe {
+                padding: 0px 3px;
+                background-color: rgb(15, 163, 107);
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .google-blue {
+                color: rgb(72, 133, 237);
+            }
+            .google-red {
+                color: rgb(219, 50, 54);
+            }
+            .google-yellow {
+                color: rgb(244, 194, 13);
+            }
+            .google-green {
+                color: rgb(60, 186, 84);
+            }
+            .google-bg {
+                font-family: "Product Sans", sans-serif;
+                padding: 0px 3px;
+                font-size: 20px;
+                background-color: white;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .yoda-green {
+                color: rgb(117, 147, 78);
+                text-decoration: none;
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
-        <h1 id="nome">Rafael Gelatti | Portfolio</h1>
-        <img id="foto" src="./assets/foto-rafa.jpg" alt="Rafael Gelatti de perfil" width="400px">
-        <p>Ser humano. <strong>Curioso</strong>. Completou 37 voltas ao redor do sol.<br>Nascido e atualmente localizado em Porto Alegre, Rio Grande do Sul - Brasil<br>Estudando para ser Desenvolvedor de Software na <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe</strong></a>.
+        <h1 id="nome" class="name-title">Rafael Gelatti | Portfolio</h1>
+        <img id="foto" class="main-img" src="./assets/foto-rafa.jpg" alt="Rafael Gelatti de perfil" width="400px">
+        <p class="description">Ser humano. <strong>Curioso</strong>. Completou 37 voltas ao redor do sol.<br>
+        Nascido e atualmente localizado em Porto Alegre, Rio Grande do Sul - Brasil<br>
+        Estudante da <a href="https://www.betrybe.com/" target="_blank"><span class="trybe"><strong>Trybe</strong></span></a> | Software Developer<br><br>
+        <a href="#indice" class="link-indice">- Index -</a>
         </p>
-        <h3 id="sonho">Sonho</h3>
-        <p>Conhecer todo o universo, e fora dele(se existir).</p>
-        <h3 id="habilidades">Habilidades<em>(boas ou ruins, relativo pode <a href="https://www.starwars.com/databank/yoda" target="_blank">ser</a>)</em></h3>
+
+        
+
+        <h3 id="sonho" class="title">Sonho</h3>
+        <p>Explorar o universo e fora dele(se existir).</p>
+        
+        <h3 id="habilidades" class="title">Habilidades<em>(boas ou ruins, relativo pode <a href="https://www.starwars.com/databank/yoda" target="_blank"><span class="yoda-green">ser</span></a>)</em></h3>
         <ul>
             <li><strong>Curioso</strong></li>
             <li>Luta para ir até o final</li>
-            <li>Toca bem o instrumento baixo</li>
+            <li>Toca bem o baixo</li>
             <li>Se esforça para ser um bom pai, filho, esposo e amigo</li>
             <li>Gosta de ler</li>
             <li>Gosta de humanas e de exatas</li>
-            <li>Sabe pesquisar no <a href="https://www.google.com" target="_blank">Google</a></li>
+            <li>Sabe pesquisar no <a href="https://www.google.com" target="_blank"><span class="google-bg"><span class="google-blue">G</span><span class="google-red">o</span><span class="google-yellow">o</span><span class="google-blue">g</span><span class="google-green">l</span><span class="google-red">e</span></span></a></li>
+            <li>Criativo</li>
+            <li>Flexível</li>
+            <li>Tem pensamento crítico(ou gosta de pensar que tem)</li>
         </ul>
-        <h3 id="habilidades-tecnicas">Habilidades Técnicas(<em>Sempre</em> em desenvolvimento)</h3>
+        
+        <h3 id="habilidades-tecnicas" class="title">Habilidades Técnicas(<em>Sempre</em> em desenvolvimento)</h3>
         <ul>
             <li>Adobe After Effects</li>
             <li>Adobe Illustrator</li>
@@ -32,6 +115,8 @@
             <li>Internet</li>
             <li>Linux</li>
             <li>Git</li>
+            <li>Shell</li>
+            <li>Bash</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Slack</li>
@@ -42,18 +127,32 @@
             <li>XCode</li>
             <li>Unity</li>
         </ul>
-        <h3 id="links">Links</h3>
+        
+        <h3 id="links" class="title">Links</h3>
         <ul>
             <li><a href="#foto">Tomar um susto!</a></li>
             <li><a href="https://www.youtube.com/watch?v=1M0eMkcc91E#t=00m50s">"We are the music makers and we are the dreamers of the dreams"</a></li>
         </ul>
-        <h3>Indice</h3>
+
+        <h3 id="influencias" class="title">Influências</h3>
+        <p>Carl Sagan, Jiddu Krishnamurti, Ludwig Van Beethoven, Albert Camus</p>
+
+        <h3 id="interesses" class="title">Interesses</h3>
+        <p>Musica, Baixo, Wing Chun, Budismo, Filosofia, Psicologia</p>
+
+        <h3 id="livros" class="title">Livros</h3>
+        <p>Moby Dick, Pequeno Príncipe, Sapiens, Pálido Ponto Azul, Elástico, O Andar do Bêbado</p>
+        
+        <h3 id="indice" class="title">Indice</h3>
         <ol>
-            <li><a href="#nome">Nome</a></li>
+            <li><a href="#nome">Topo</a></li>
             <li><a href="#foto">Foto</a></li>
             <li><a href="#sonho">Sonho</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
+            <li><a href="#influencias">Indluências</a></li>
+            <li><a href="#interesses">Interesses</a></li>
+            <li><a href="#livros">Livros</a></li>
             <li><a href="#links">Links</a></li>
         </ol>
     </body>
