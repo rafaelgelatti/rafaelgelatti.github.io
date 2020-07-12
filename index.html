@@ -3,93 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Rafael Gelatti | Portfolio</title>
-        <style>    
-            body {
-                background-color: rgb(240, 235, 216);
-                color: rgb(29, 45, 68);
-                font-family: sans-serif;
-                margin-left: 20px;
-                font-size: 18px;
-            }
-
-            .name-title {
-                color: rgb(62, 92, 118);
-                font-family: sans-serif;
-                text-align: center;
-                font-size: 2.5em;
-            }
-
-            .title {
-                color: rgb(62, 92, 118);
-                font-size: 1.5em;
-            }
-            .description {
-                text-align: center;
-            }
-            .main-img {
-                border: 3px solid rgb(62, 92, 118);
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                border-radius: 100%;
-                width: 15%;
-            }
-            .link-indice {
-                padding: 0px 3px;
-                background-color: rgb(62, 92, 118);
-                color: white;
-                font-weight: 600;
-                text-decoration: none;
-                display: inline-block;
-            }
-            .trybe {
-                padding: 0px 3px;
-                background-color: rgb(15, 163, 107);
-                color: white;
-                font-size: 20px;
-                text-decoration: none;
-                display: inline-block;
-            }
-            .google-blue {
-                color: rgb(72, 133, 237);
-            }
-            .google-red {
-                color: rgb(219, 50, 54);
-            }
-            .google-yellow {
-                color: rgb(244, 194, 13);
-            }
-            .google-green {
-                color: rgb(60, 186, 84);
-            }
-            .google-bg {
-                font-family: "Product Sans", sans-serif;
-                padding: 0px 3px;
-                font-size: 20px;
-                background-color: white;
-                text-decoration: none;
-                display: inline-block;
-            }
-            .yoda-green {
-                color: rgb(117, 147, 78);
-                text-decoration: none;
-                display: inline-block;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="./assets/style.css">
     </head>
     <body>
-        <h1 id="nome" class="name-title">Rafael Gelatti | Portfolio</h1>
-        <img id="foto" class="main-img" src="./assets/foto-rafa.jpg" alt="Rafael Gelatti de perfil" width="400px">
-        <p class="description">Ser humano. <strong>Curioso</strong>. Completou 37 voltas ao redor do sol.<br>
-        Nascido e atualmente localizado em Porto Alegre, Rio Grande do Sul - Brasil<br>
-        Estudante da <a href="https://www.betrybe.com/" target="_blank"><span class="trybe"><strong>Trybe</strong></span></a> | Software Developer<br><br>
-        <a href="#indice" class="link-indice">- Index -</a>
-        </p>
+        <div class="header">
+            <h1 id="nome" class="name">Rafael Gelatti | Portfolio</h1>
 
+            <img id="foto" class="pic" src="./assets/foto-rafa.jpg" alt="Rafael Gelatti de perfil">
+
+            <p class="description">Ser humano. <strong>Curioso</strong>. Completou 37 voltas ao redor do sol.<br>
+                Nascido e atualmente localizado em Porto Alegre, Rio Grande do Sul - Brasil<br>
+                Estudante na <a href="https://www.betrybe.com/" target="_blank"><span class="trybe"><strong>Trybe</strong></span><a> | Software Development
+        </div>
         
+        <aside>
+            <p>Teste de 'aside'</p>
+        </aside>
 
-        <h3 id="sonho" class="title">Sonho</h3>
-        <p>Explorar o universo e fora dele(se existir).</p>
+        <div class="dream-box">
+            <h3 id="sonho" class="title">Se eu pudesse qualquer coisa..</h3>
+            <p class="text">Exploraria o universo e fora dele(se existir).</p>
+        </div>
         
         <h3 id="habilidades" class="title">Habilidades<em>(boas ou ruins, relativo pode <a href="https://www.starwars.com/databank/yoda" target="_blank"><span class="yoda-green">ser</span></a>)</em></h3>
         <ul>
